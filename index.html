@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrabajoJavascript</title>
+  </head>
+  <body>
+    <h1>TrabajoJavascript</h1>
+    <section>
+      <h2>Introducción a JS</h2>
+    <div>
+      <h3>Ejercicio 2</h3>
+      <P>Presionando el siguiente boton se puede obtener la suma de dos numeros. Los resultados quedan escritos en el log.</P>
+      <button id="buttonSuma">Suma</button>
+    </div>
+    <div>
+      <h3>Ejercicio 3</h3>
+      <p>El siguiente botón le enviará un saludo</p>
+      <button id="saludo">Saludo</button>
+    </div>
+    </section>
+    <section>
+      <h2>Operadores Lógicos y Condicionales</h2>
+      <div>
+        <h3>Ejercicio 1</h3>
+        <P>Presionando el siguiente boton se puede obtener el mayor entre dos numeros. Los resultados quedan escritos en el log.</P>
+        <button id="buttonMayor">Mayor</button>
+      </div>
+      <div>
+        <h3>Ejercicio 2</h3>
+        <P>Presionando el siguiente boton se puede saber si un número es par o impar.</P>
+        <button id="buttonParImpar">Par o Impar</button>
+      </div>
+    </section>
+    <section>
+      <h2>Operadores de asignación y bucles</h2>
+      <div>
+        <h3>Ejercicio 1</h3>
+        <P>Presionando el siguiente boton se disminuye el numero 10 hasta 1 en el log.</P>
+        <button id="buttonWhile">Bajan</button>
+      </div>
+      <div>
+        <h3>Ejercicio 2</h3>
+        <P>Presionando el siguiente boton el sistema le pedira ingresar un numero hasta que este sea mayor a 100.</P>
+        <button id="buttonMayor100">Dame un numero</button>
+      </div>
+    </section>
+    <section>
+      <h2>Funciones de JavaScript</h2>
+      <div>
+        <h3>Ejercicio 1</h3>
+        <P>El siguiente boton determina si un numero ingresado es par.</P>
+        <button id="buttonParBool">Es Par?</button>
+      </div>
+      <div>
+        <h3>Ejercicio 2</h3>
+        <P>Presionando el siguiente boton el sistema le pedira ingresar un numero (temperatura en °C) para mostrar su equivalente en °F.</P>
+        <button id="buttonConvertir">Convertir</button>
+      </div>
+    </section>
+    <section>
+      <h2>Objetos en JavaScript</h2>
+      <div>
+        <h3>Ejercicio 1</h3>
+        <P>El siguiente boton genera un objeto tipo persona con los datos ingresados.</P>
+        <button id="buttonPersona">Nueva Persona</button>
+        <p>Este boton muestra la lista de personas creadas.</p>
+        <button id="mostrar">Mostrar Personas</button>
+        <p>Este boton permite cambiar la ciudad de una persona en la lista.</p>
+        <button id="cambiarCiudad">Cambiar Ciudad</button>
+      </div>
+      <div>
+        <h3>Ejercicio 2</h3>
+        <P>El siguiente boton genera un objeto tipo libro con los datos ingresados.</P>
+        <button id="buttonLibro">Nuevo Libro</button>
+        <p>El próximo boton muestra la lista de libros creadas.</p>
+        <button id="mostrarLibro">Mostrar Libros</button>
+        <p>Este boton permite ver si un libro es antiguo o reciente.</p>
+        <button id="esReciente">¿Lo es?</button>
+      </div>
+    </section>
+    <section>
+      <h2>Arrays</h2>
+      <div>
+        <h3>Ejercicio 1</h3>
+        <P>El siguiente boton muestra dos arreglos, uno base y el otro con sus valores multiplicados por 2.</P>
+        <button id="mostrarArreglos">Mostrar Arreglos</button>
+      </div>
+      <div>
+        <h3>Ejercicio 2</h3>
+        <P>El siguiente botón asigna al arreglo "pares" los primeros 10 pares</P>
+        <button id="buttonPares">Agregar Pares</button>
+      </div>
+    </section>
+    <section>
+      <h2>Introducción al DOM</h2>
+      <div>
+        <h3>Ejercicio 1</h3>
+        <p>El próximo botón cambia el color de los elementos "p" a azul.</p>
+        <p>Este es el primer párrafo.</p>
+        <p>Este es el segundo párrafo.</p>
+        <p>Este es el tercer párrafo.</p>
+        <button id="buttonCambiarColor">Cambiar color a azul</button>
+      </div>
+      <div>
+        <h3>Ejercicio 2</h3>
+        <p>El siguiente formulario genera una alerta con el texto escrito.</p>
+        <form>
+          <label for="campoTexto">Ingrese un texto:</label>
+          <input type="text" id="campoTexto" name="texto">
+          <button id="buttonAlerta">Mostrar Alerta</button>
+        </form>
+      </div>
+    </section>
+    <section>
+      <h2>Eventos en DOM</h2>
+      <div>
+        <h3>Ejercicio 1: Lista con elementos</h3>
+        <p>Cada elemento de la sigueinte lista puede mostrar por consola su texto</p>
+        <ul id="listaSeleccionable">
+          <li >Elemento 1</li>
+          <li >Elemento 2</li>
+          <li >Elemento 3</li>
+          <li >Elemento 4</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Ejercicio 2</h3>
+        <p>Los proximos botones pueden habilitar o deshabilitar el campo de texto de su izquierda.</p>
+
+          <input type="text" id="textoHabilitable" name="texto" placeholder="Ingresa algo">
+          <button id="buttonDeshabilitar">Deshabilitar Campo</button>
+          <button id="buttonHabilitar">Habilitar Campo</button>
+      </div>
+    </section>
+    <section>
+      <h1>LocalStorage</h1>
+      <h3>Ejercicio 1: Lista con elementos</h3>
+      <form id="formCorreo">
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo">
+        <button type="submit">Guardar Correo</button>
+        <div id="correoGuardado"></div>
+        <button id="eliminarCorreo" style="display: none;"  type="button" >Eliminar Correo</button>
+      </form>
+    </section>
+    <script type="module" src="/suma.js"></script>
+    <script type="module" src="/nombreUsuario.js"></script>
+    <script type="module" src="/mayor.js"></script>
+    <script type="module" src="/parImpar.js"></script>
+    <script type="module" src="/while.js"></script>
+    <script type="module" src="/mayorA100.js"></script>
+    <script type="module" src="/parBool.js"></script>
+    <script type="module" src="/convertirGrados.js"></script>
+    <script type="module" src="/persona.js"></script>
+    <script type="module" src="/libro.js"></script>
+    <script type="module" src="/arrays.js"></script>
+    <script type="module" src="/cambiarParrafos.js"></script>
+    <script type="module" src="/alerta.js"></script>
+    <script type="module" src="/lista.js"></script>
+    <script type="module" src="/deshabilitar.js"></script>
+    <script type="module" src="/correo.js"></script>
+
+  </body>
+</html>
